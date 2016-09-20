@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A7F8C941D90CFBF00208766 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7F8C931D90CFBF00208766 /* main.m */; };
+		2A7F8C971D90CFBF00208766 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7F8C961D90CFBF00208766 /* AppDelegate.m */; };
+		2A7F8C9A1D90CFBF00208766 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7F8C991D90CFBF00208766 /* ViewController.m */; };
+		2A7F8C9D1D90CFBF00208766 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A7F8C9B1D90CFBF00208766 /* Main.storyboard */; };
+		2A7F8C9F1D90CFBF00208766 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A7F8C9E1D90CFBF00208766 /* Assets.xcassets */; };
+		2A7F8CA21D90CFBF00208766 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A7F8CA01D90CFBF00208766 /* LaunchScreen.storyboard */; };
+		2A7F8CAD1D90CFBF00208766 /* DFITableViewCellsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7F8CAC1D90CFBF00208766 /* DFITableViewCellsDemoTests.m */; };
+		2A7F8CB81D90CFBF00208766 /* DFITableViewCellsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7F8CB71D90CFBF00208766 /* DFITableViewCellsDemoUITests.m */; };
+		2A7F8CED1D90CFCA00208766 /* DFIButtonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7F8CC81D90CFCA00208766 /* DFIButtonTableViewCell.m */; };
+		2A7F8CEE1D90CFCA00208766 /* DFIButtonTableViewCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7F8CCA1D90CFCA00208766 /* DFIButtonTableViewCellViewModel.m */; };
+		2A7F8CEF1D90CFCA00208766 /* DFIPlainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7F8CCD1D90CFCA00208766 /* DFIPlainTableViewCell.m */; };
+		2A7F8CF01D90CFCA00208766 /* DFIPlainTableViewCellOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7F8CCF1D90CFCA00208766 /* DFIPlainTableViewCellOption.m */; };
+		2A7F8CF11D90CFCA00208766 /* DFIPlainTableViewCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7F8CD11D90CFCA00208766 /* DFIPlainTableViewCellViewModel.m */; };
+		2A7F8CF21D90CFCA00208766 /* DFISegmentedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7F8CD31D90CFCA00208766 /* DFISegmentedTableViewCell.m */; };
+		2A7F8CF31D90CFCA00208766 /* DFISegmentedTableViewCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7F8CD51D90CFCA00208766 /* DFISegmentedTableViewCellViewModel.m */; };
+		2A7F8CF41D90CFCA00208766 /* DFITableViewCellOption+DFITextFieldTableViewCellOptionAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7F8CD71D90CFCA00208766 /* DFITableViewCellOption+DFITextFieldTableViewCellOptionAddition.m */; };
+		2A7F8CF51D90CFCA00208766 /* DFITextFieldTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7F8CD91D90CFCA00208766 /* DFITextFieldTableViewCell.m */; };
+		2A7F8CF61D90CFCA00208766 /* DFITextFieldTableViewCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7F8CDB1D90CFCA00208766 /* DFITextFieldTableViewCellViewModel.m */; };
+		2A7F8CF71D90CFCA00208766 /* DFITextViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7F8CDD1D90CFCA00208766 /* DFITextViewTableViewCell.m */; };
+		2A7F8CF81D90CFCA00208766 /* DFITextViewTableViewCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7F8CDF1D90CFCA00208766 /* DFITextViewTableViewCellViewModel.m */; };
+		2A7F8CF91D90CFCA00208766 /* DFITableViewCellConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7F8CE21D90CFCA00208766 /* DFITableViewCellConfigure.m */; };
+		2A7F8CFA1D90CFCA00208766 /* DFITableViewCellOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7F8CE51D90CFCA00208766 /* DFITableViewCellOption.m */; };
+		2A7F8CFB1D90CFCA00208766 /* DFITableViewCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7F8CE81D90CFCA00208766 /* DFITableViewCellViewModel.m */; };
+		2A7F8CFC1D90CFCA00208766 /* UITableViewCell+configure.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7F8CEA1D90CFCA00208766 /* UITableViewCell+configure.m */; };
+		3A30507031617AC36A0BDCF6 /* libPods-DFITableViewCellsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5FBA232DAD6F33FC861AC7 /* libPods-DFITableViewCellsDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A7F8CA91D90CFBF00208766 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A7F8C871D90CFBF00208766 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A7F8C8E1D90CFBF00208766;
+			remoteInfo = DFITableViewCellsDemo;
+		};
+		2A7F8CB41D90CFBF00208766 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A7F8C871D90CFBF00208766 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A7F8C8E1D90CFBF00208766;
+			remoteInfo = DFITableViewCellsDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2275F125D2AFD7B45F821012 /* Pods-DFITableViewCellsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFITableViewCellsDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DFITableViewCellsDemo/Pods-DFITableViewCellsDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		2A7F8C8F1D90CFBF00208766 /* DFITableViewCellsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DFITableViewCellsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A7F8C931D90CFBF00208766 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A7F8C951D90CFBF00208766 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A7F8C961D90CFBF00208766 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A7F8C981D90CFBF00208766 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2A7F8C991D90CFBF00208766 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2A7F8C9C1D90CFBF00208766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A7F8C9E1D90CFBF00208766 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A7F8CA11D90CFBF00208766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A7F8CA31D90CFBF00208766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A7F8CA81D90CFBF00208766 /* DFITableViewCellsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DFITableViewCellsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A7F8CAC1D90CFBF00208766 /* DFITableViewCellsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFITableViewCellsDemoTests.m; sourceTree = "<group>"; };
+		2A7F8CAE1D90CFBF00208766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A7F8CB31D90CFBF00208766 /* DFITableViewCellsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DFITableViewCellsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A7F8CB71D90CFBF00208766 /* DFITableViewCellsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFITableViewCellsDemoUITests.m; sourceTree = "<group>"; };
+		2A7F8CB91D90CFBF00208766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A7F8CC71D90CFCA00208766 /* DFIButtonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFIButtonTableViewCell.h; sourceTree = "<group>"; };
+		2A7F8CC81D90CFCA00208766 /* DFIButtonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFIButtonTableViewCell.m; sourceTree = "<group>"; };
+		2A7F8CC91D90CFCA00208766 /* DFIButtonTableViewCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFIButtonTableViewCellViewModel.h; sourceTree = "<group>"; };
+		2A7F8CCA1D90CFCA00208766 /* DFIButtonTableViewCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFIButtonTableViewCellViewModel.m; sourceTree = "<group>"; };
+		2A7F8CCB1D90CFCA00208766 /* DFIConcreteTableViewCells.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFIConcreteTableViewCells.h; sourceTree = "<group>"; };
+		2A7F8CCC1D90CFCA00208766 /* DFIPlainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFIPlainTableViewCell.h; sourceTree = "<group>"; };
+		2A7F8CCD1D90CFCA00208766 /* DFIPlainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFIPlainTableViewCell.m; sourceTree = "<group>"; };
+		2A7F8CCE1D90CFCA00208766 /* DFIPlainTableViewCellOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFIPlainTableViewCellOption.h; sourceTree = "<group>"; };
+		2A7F8CCF1D90CFCA00208766 /* DFIPlainTableViewCellOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFIPlainTableViewCellOption.m; sourceTree = "<group>"; };
+		2A7F8CD01D90CFCA00208766 /* DFIPlainTableViewCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFIPlainTableViewCellViewModel.h; sourceTree = "<group>"; };
+		2A7F8CD11D90CFCA00208766 /* DFIPlainTableViewCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFIPlainTableViewCellViewModel.m; sourceTree = "<group>"; };
+		2A7F8CD21D90CFCA00208766 /* DFISegmentedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFISegmentedTableViewCell.h; sourceTree = "<group>"; };
+		2A7F8CD31D90CFCA00208766 /* DFISegmentedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFISegmentedTableViewCell.m; sourceTree = "<group>"; };
+		2A7F8CD41D90CFCA00208766 /* DFISegmentedTableViewCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFISegmentedTableViewCellViewModel.h; sourceTree = "<group>"; };
+		2A7F8CD51D90CFCA00208766 /* DFISegmentedTableViewCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFISegmentedTableViewCellViewModel.m; sourceTree = "<group>"; };
+		2A7F8CD61D90CFCA00208766 /* DFITableViewCellOption+DFITextFieldTableViewCellOptionAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DFITableViewCellOption+DFITextFieldTableViewCellOptionAddition.h"; sourceTree = "<group>"; };
+		2A7F8CD71D90CFCA00208766 /* DFITableViewCellOption+DFITextFieldTableViewCellOptionAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DFITableViewCellOption+DFITextFieldTableViewCellOptionAddition.m"; sourceTree = "<group>"; };
+		2A7F8CD81D90CFCA00208766 /* DFITextFieldTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFITextFieldTableViewCell.h; sourceTree = "<group>"; };
+		2A7F8CD91D90CFCA00208766 /* DFITextFieldTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFITextFieldTableViewCell.m; sourceTree = "<group>"; };
+		2A7F8CDA1D90CFCA00208766 /* DFITextFieldTableViewCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFITextFieldTableViewCellViewModel.h; sourceTree = "<group>"; };
+		2A7F8CDB1D90CFCA00208766 /* DFITextFieldTableViewCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFITextFieldTableViewCellViewModel.m; sourceTree = "<group>"; };
+		2A7F8CDC1D90CFCA00208766 /* DFITextViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFITextViewTableViewCell.h; sourceTree = "<group>"; };
+		2A7F8CDD1D90CFCA00208766 /* DFITextViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFITextViewTableViewCell.m; sourceTree = "<group>"; };
+		2A7F8CDE1D90CFCA00208766 /* DFITextViewTableViewCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFITextViewTableViewCellViewModel.h; sourceTree = "<group>"; };
+		2A7F8CDF1D90CFCA00208766 /* DFITextViewTableViewCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFITextViewTableViewCellViewModel.m; sourceTree = "<group>"; };
+		2A7F8CE01D90CFCA00208766 /* UIViewSelectActionInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewSelectActionInterface.h; sourceTree = "<group>"; };
+		2A7F8CE11D90CFCA00208766 /* DFITableViewCellConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFITableViewCellConfigure.h; sourceTree = "<group>"; };
+		2A7F8CE21D90CFCA00208766 /* DFITableViewCellConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFITableViewCellConfigure.m; sourceTree = "<group>"; };
+		2A7F8CE31D90CFCA00208766 /* DFITableViewCellDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFITableViewCellDefines.h; sourceTree = "<group>"; };
+		2A7F8CE41D90CFCA00208766 /* DFITableViewCellOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFITableViewCellOption.h; sourceTree = "<group>"; };
+		2A7F8CE51D90CFCA00208766 /* DFITableViewCellOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFITableViewCellOption.m; sourceTree = "<group>"; };
+		2A7F8CE61D90CFCA00208766 /* DFITableViewCells.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFITableViewCells.h; sourceTree = "<group>"; };
+		2A7F8CE71D90CFCA00208766 /* DFITableViewCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFITableViewCellViewModel.h; sourceTree = "<group>"; };
+		2A7F8CE81D90CFCA00208766 /* DFITableViewCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFITableViewCellViewModel.m; sourceTree = "<group>"; };
+		2A7F8CE91D90CFCA00208766 /* UITableViewCell+configure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+configure.h"; sourceTree = "<group>"; };
+		2A7F8CEA1D90CFCA00208766 /* UITableViewCell+configure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+configure.m"; sourceTree = "<group>"; };
+		2A7F8CEB1D90CFCA00208766 /* UITableViewCellActionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewCellActionDelegate.h; sourceTree = "<group>"; };
+		2A7F8CEC1D90CFCA00208766 /* UITableViewCellConfigureProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewCellConfigureProtocol.h; sourceTree = "<group>"; };
+		2AF0EB8CB3A6324D2A7EF450 /* Pods-DFITableViewCellsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFITableViewCellsDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DFITableViewCellsDemo/Pods-DFITableViewCellsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8E5FBA232DAD6F33FC861AC7 /* libPods-DFITableViewCellsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DFITableViewCellsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A7F8C8C1D90CFBF00208766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A30507031617AC36A0BDCF6 /* libPods-DFITableViewCellsDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A7F8CA51D90CFBF00208766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A7F8CB01D90CFBF00208766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A7F8C861D90CFBF00208766 = {
+			isa = PBXGroup;
+			children = (
+				2A7F8CC51D90CFCA00208766 /* DFITableViewCells */,
+				2A7F8C911D90CFBF00208766 /* DFITableViewCellsDemo */,
+				2A7F8CAB1D90CFBF00208766 /* DFITableViewCellsDemoTests */,
+				2A7F8CB61D90CFBF00208766 /* DFITableViewCellsDemoUITests */,
+				2A7F8C901D90CFBF00208766 /* Products */,
+				B8D9BC8AC7F98EEA2721A003 /* Pods */,
+				BC24FAF554CD87E38D8E5335 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2A7F8C901D90CFBF00208766 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A7F8C8F1D90CFBF00208766 /* DFITableViewCellsDemo.app */,
+				2A7F8CA81D90CFBF00208766 /* DFITableViewCellsDemoTests.xctest */,
+				2A7F8CB31D90CFBF00208766 /* DFITableViewCellsDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A7F8C911D90CFBF00208766 /* DFITableViewCellsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2A7F8C951D90CFBF00208766 /* AppDelegate.h */,
+				2A7F8C961D90CFBF00208766 /* AppDelegate.m */,
+				2A7F8C981D90CFBF00208766 /* ViewController.h */,
+				2A7F8C991D90CFBF00208766 /* ViewController.m */,
+				2A7F8C9B1D90CFBF00208766 /* Main.storyboard */,
+				2A7F8C9E1D90CFBF00208766 /* Assets.xcassets */,
+				2A7F8CA01D90CFBF00208766 /* LaunchScreen.storyboard */,
+				2A7F8CA31D90CFBF00208766 /* Info.plist */,
+				2A7F8C921D90CFBF00208766 /* Supporting Files */,
+			);
+			path = DFITableViewCellsDemo;
+			sourceTree = "<group>";
+		};
+		2A7F8C921D90CFBF00208766 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A7F8C931D90CFBF00208766 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A7F8CAB1D90CFBF00208766 /* DFITableViewCellsDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A7F8CAC1D90CFBF00208766 /* DFITableViewCellsDemoTests.m */,
+				2A7F8CAE1D90CFBF00208766 /* Info.plist */,
+			);
+			path = DFITableViewCellsDemoTests;
+			sourceTree = "<group>";
+		};
+		2A7F8CB61D90CFBF00208766 /* DFITableViewCellsDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A7F8CB71D90CFBF00208766 /* DFITableViewCellsDemoUITests.m */,
+				2A7F8CB91D90CFBF00208766 /* Info.plist */,
+			);
+			path = DFITableViewCellsDemoUITests;
+			sourceTree = "<group>";
+		};
+		2A7F8CC51D90CFCA00208766 /* DFITableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				2A7F8CC61D90CFCA00208766 /* ConcreteCells */,
+				2A7F8CE11D90CFCA00208766 /* DFITableViewCellConfigure.h */,
+				2A7F8CE21D90CFCA00208766 /* DFITableViewCellConfigure.m */,
+				2A7F8CE31D90CFCA00208766 /* DFITableViewCellDefines.h */,
+				2A7F8CE41D90CFCA00208766 /* DFITableViewCellOption.h */,
+				2A7F8CE51D90CFCA00208766 /* DFITableViewCellOption.m */,
+				2A7F8CE61D90CFCA00208766 /* DFITableViewCells.h */,
+				2A7F8CE71D90CFCA00208766 /* DFITableViewCellViewModel.h */,
+				2A7F8CE81D90CFCA00208766 /* DFITableViewCellViewModel.m */,
+				2A7F8CE91D90CFCA00208766 /* UITableViewCell+configure.h */,
+				2A7F8CEA1D90CFCA00208766 /* UITableViewCell+configure.m */,
+				2A7F8CEB1D90CFCA00208766 /* UITableViewCellActionDelegate.h */,
+				2A7F8CEC1D90CFCA00208766 /* UITableViewCellConfigureProtocol.h */,
+			);
+			path = DFITableViewCells;
+			sourceTree = "<group>";
+		};
+		2A7F8CC61D90CFCA00208766 /* ConcreteCells */ = {
+			isa = PBXGroup;
+			children = (
+				2A7F8CC71D90CFCA00208766 /* DFIButtonTableViewCell.h */,
+				2A7F8CC81D90CFCA00208766 /* DFIButtonTableViewCell.m */,
+				2A7F8CC91D90CFCA00208766 /* DFIButtonTableViewCellViewModel.h */,
+				2A7F8CCA1D90CFCA00208766 /* DFIButtonTableViewCellViewModel.m */,
+				2A7F8CCB1D90CFCA00208766 /* DFIConcreteTableViewCells.h */,
+				2A7F8CCC1D90CFCA00208766 /* DFIPlainTableViewCell.h */,
+				2A7F8CCD1D90CFCA00208766 /* DFIPlainTableViewCell.m */,
+				2A7F8CCE1D90CFCA00208766 /* DFIPlainTableViewCellOption.h */,
+				2A7F8CCF1D90CFCA00208766 /* DFIPlainTableViewCellOption.m */,
+				2A7F8CD01D90CFCA00208766 /* DFIPlainTableViewCellViewModel.h */,
+				2A7F8CD11D90CFCA00208766 /* DFIPlainTableViewCellViewModel.m */,
+				2A7F8CD21D90CFCA00208766 /* DFISegmentedTableViewCell.h */,
+				2A7F8CD31D90CFCA00208766 /* DFISegmentedTableViewCell.m */,
+				2A7F8CD41D90CFCA00208766 /* DFISegmentedTableViewCellViewModel.h */,
+				2A7F8CD51D90CFCA00208766 /* DFISegmentedTableViewCellViewModel.m */,
+				2A7F8CD61D90CFCA00208766 /* DFITableViewCellOption+DFITextFieldTableViewCellOptionAddition.h */,
+				2A7F8CD71D90CFCA00208766 /* DFITableViewCellOption+DFITextFieldTableViewCellOptionAddition.m */,
+				2A7F8CD81D90CFCA00208766 /* DFITextFieldTableViewCell.h */,
+				2A7F8CD91D90CFCA00208766 /* DFITextFieldTableViewCell.m */,
+				2A7F8CDA1D90CFCA00208766 /* DFITextFieldTableViewCellViewModel.h */,
+				2A7F8CDB1D90CFCA00208766 /* DFITextFieldTableViewCellViewModel.m */,
+				2A7F8CDC1D90CFCA00208766 /* DFITextViewTableViewCell.h */,
+				2A7F8CDD1D90CFCA00208766 /* DFITextViewTableViewCell.m */,
+				2A7F8CDE1D90CFCA00208766 /* DFITextViewTableViewCellViewModel.h */,
+				2A7F8CDF1D90CFCA00208766 /* DFITextViewTableViewCellViewModel.m */,
+				2A7F8CE01D90CFCA00208766 /* UIViewSelectActionInterface.h */,
+			);
+			path = ConcreteCells;
+			sourceTree = "<group>";
+		};
+		B8D9BC8AC7F98EEA2721A003 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2275F125D2AFD7B45F821012 /* Pods-DFITableViewCellsDemo.debug.xcconfig */,
+				2AF0EB8CB3A6324D2A7EF450 /* Pods-DFITableViewCellsDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC24FAF554CD87E38D8E5335 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E5FBA232DAD6F33FC861AC7 /* libPods-DFITableViewCellsDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A7F8C8E1D90CFBF00208766 /* DFITableViewCellsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A7F8CBC1D90CFBF00208766 /* Build configuration list for PBXNativeTarget "DFITableViewCellsDemo" */;
+			buildPhases = (
+				9C5B97615BD3B405DA870EF3 /* [CP] Check Pods Manifest.lock */,
+				2A7F8C8B1D90CFBF00208766 /* Sources */,
+				2A7F8C8C1D90CFBF00208766 /* Frameworks */,
+				2A7F8C8D1D90CFBF00208766 /* Resources */,
+				B72E1DD898BD8E2DE3F66BCD /* [CP] Embed Pods Frameworks */,
+				5F51270E87FEBB664187CB07 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DFITableViewCellsDemo;
+			productName = DFITableViewCellsDemo;
+			productReference = 2A7F8C8F1D90CFBF00208766 /* DFITableViewCellsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A7F8CA71D90CFBF00208766 /* DFITableViewCellsDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A7F8CBF1D90CFBF00208766 /* Build configuration list for PBXNativeTarget "DFITableViewCellsDemoTests" */;
+			buildPhases = (
+				2A7F8CA41D90CFBF00208766 /* Sources */,
+				2A7F8CA51D90CFBF00208766 /* Frameworks */,
+				2A7F8CA61D90CFBF00208766 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A7F8CAA1D90CFBF00208766 /* PBXTargetDependency */,
+			);
+			name = DFITableViewCellsDemoTests;
+			productName = DFITableViewCellsDemoTests;
+			productReference = 2A7F8CA81D90CFBF00208766 /* DFITableViewCellsDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A7F8CB21D90CFBF00208766 /* DFITableViewCellsDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A7F8CC21D90CFBF00208766 /* Build configuration list for PBXNativeTarget "DFITableViewCellsDemoUITests" */;
+			buildPhases = (
+				2A7F8CAF1D90CFBF00208766 /* Sources */,
+				2A7F8CB01D90CFBF00208766 /* Frameworks */,
+				2A7F8CB11D90CFBF00208766 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A7F8CB51D90CFBF00208766 /* PBXTargetDependency */,
+			);
+			name = DFITableViewCellsDemoUITests;
+			productName = DFITableViewCellsDemoUITests;
+			productReference = 2A7F8CB31D90CFBF00208766 /* DFITableViewCellsDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A7F8C871D90CFBF00208766 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = sdaheng;
+				TargetAttributes = {
+					2A7F8C8E1D90CFBF00208766 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = H9ZR26FJWG;
+						ProvisioningStyle = Automatic;
+					};
+					2A7F8CA71D90CFBF00208766 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = H9ZR26FJWG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2A7F8C8E1D90CFBF00208766;
+					};
+					2A7F8CB21D90CFBF00208766 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = H9ZR26FJWG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2A7F8C8E1D90CFBF00208766;
+					};
+				};
+			};
+			buildConfigurationList = 2A7F8C8A1D90CFBF00208766 /* Build configuration list for PBXProject "DFITableViewCellsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A7F8C861D90CFBF00208766;
+			productRefGroup = 2A7F8C901D90CFBF00208766 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A7F8C8E1D90CFBF00208766 /* DFITableViewCellsDemo */,
+				2A7F8CA71D90CFBF00208766 /* DFITableViewCellsDemoTests */,
+				2A7F8CB21D90CFBF00208766 /* DFITableViewCellsDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A7F8C8D1D90CFBF00208766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A7F8CA21D90CFBF00208766 /* LaunchScreen.storyboard in Resources */,
+				2A7F8C9F1D90CFBF00208766 /* Assets.xcassets in Resources */,
+				2A7F8C9D1D90CFBF00208766 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A7F8CA61D90CFBF00208766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A7F8CB11D90CFBF00208766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F51270E87FEBB664187CB07 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DFITableViewCellsDemo/Pods-DFITableViewCellsDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C5B97615BD3B405DA870EF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B72E1DD898BD8E2DE3F66BCD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DFITableViewCellsDemo/Pods-DFITableViewCellsDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A7F8C8B1D90CFBF00208766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A7F8CEF1D90CFCA00208766 /* DFIPlainTableViewCell.m in Sources */,
+				2A7F8CF21D90CFCA00208766 /* DFISegmentedTableViewCell.m in Sources */,
+				2A7F8CF61D90CFCA00208766 /* DFITextFieldTableViewCellViewModel.m in Sources */,
+				2A7F8CF01D90CFCA00208766 /* DFIPlainTableViewCellOption.m in Sources */,
+				2A7F8CF31D90CFCA00208766 /* DFISegmentedTableViewCellViewModel.m in Sources */,
+				2A7F8CF11D90CFCA00208766 /* DFIPlainTableViewCellViewModel.m in Sources */,
+				2A7F8C9A1D90CFBF00208766 /* ViewController.m in Sources */,
+				2A7F8CEE1D90CFCA00208766 /* DFIButtonTableViewCellViewModel.m in Sources */,
+				2A7F8CFA1D90CFCA00208766 /* DFITableViewCellOption.m in Sources */,
+				2A7F8CED1D90CFCA00208766 /* DFIButtonTableViewCell.m in Sources */,
+				2A7F8CFC1D90CFCA00208766 /* UITableViewCell+configure.m in Sources */,
+				2A7F8CF71D90CFCA00208766 /* DFITextViewTableViewCell.m in Sources */,
+				2A7F8CF81D90CFCA00208766 /* DFITextViewTableViewCellViewModel.m in Sources */,
+				2A7F8CFB1D90CFCA00208766 /* DFITableViewCellViewModel.m in Sources */,
+				2A7F8C971D90CFBF00208766 /* AppDelegate.m in Sources */,
+				2A7F8CF51D90CFCA00208766 /* DFITextFieldTableViewCell.m in Sources */,
+				2A7F8C941D90CFBF00208766 /* main.m in Sources */,
+				2A7F8CF91D90CFCA00208766 /* DFITableViewCellConfigure.m in Sources */,
+				2A7F8CF41D90CFCA00208766 /* DFITableViewCellOption+DFITextFieldTableViewCellOptionAddition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A7F8CA41D90CFBF00208766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A7F8CAD1D90CFBF00208766 /* DFITableViewCellsDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A7F8CAF1D90CFBF00208766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A7F8CB81D90CFBF00208766 /* DFITableViewCellsDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A7F8CAA1D90CFBF00208766 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A7F8C8E1D90CFBF00208766 /* DFITableViewCellsDemo */;
+			targetProxy = 2A7F8CA91D90CFBF00208766 /* PBXContainerItemProxy */;
+		};
+		2A7F8CB51D90CFBF00208766 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A7F8C8E1D90CFBF00208766 /* DFITableViewCellsDemo */;
+			targetProxy = 2A7F8CB41D90CFBF00208766 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A7F8C9B1D90CFBF00208766 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A7F8C9C1D90CFBF00208766 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A7F8CA01D90CFBF00208766 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A7F8CA11D90CFBF00208766 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A7F8CBA1D90CFBF00208766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A7F8CBB1D90CFBF00208766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A7F8CBD1D90CFBF00208766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2275F125D2AFD7B45F821012 /* Pods-DFITableViewCellsDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H9ZR26FJWG;
+				INFOPLIST_FILE = DFITableViewCellsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdaheng.DFITableViewCellsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A7F8CBE1D90CFBF00208766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AF0EB8CB3A6324D2A7EF450 /* Pods-DFITableViewCellsDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H9ZR26FJWG;
+				INFOPLIST_FILE = DFITableViewCellsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdaheng.DFITableViewCellsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2A7F8CC01D90CFBF00208766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H9ZR26FJWG;
+				INFOPLIST_FILE = DFITableViewCellsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdaheng.DFITableViewCellsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DFITableViewCellsDemo.app/DFITableViewCellsDemo";
+			};
+			name = Debug;
+		};
+		2A7F8CC11D90CFBF00208766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H9ZR26FJWG;
+				INFOPLIST_FILE = DFITableViewCellsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdaheng.DFITableViewCellsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DFITableViewCellsDemo.app/DFITableViewCellsDemo";
+			};
+			name = Release;
+		};
+		2A7F8CC31D90CFBF00208766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = H9ZR26FJWG;
+				INFOPLIST_FILE = DFITableViewCellsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdaheng.DFITableViewCellsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DFITableViewCellsDemo;
+			};
+			name = Debug;
+		};
+		2A7F8CC41D90CFBF00208766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = H9ZR26FJWG;
+				INFOPLIST_FILE = DFITableViewCellsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdaheng.DFITableViewCellsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DFITableViewCellsDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A7F8C8A1D90CFBF00208766 /* Build configuration list for PBXProject "DFITableViewCellsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A7F8CBA1D90CFBF00208766 /* Debug */,
+				2A7F8CBB1D90CFBF00208766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A7F8CBC1D90CFBF00208766 /* Build configuration list for PBXNativeTarget "DFITableViewCellsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A7F8CBD1D90CFBF00208766 /* Debug */,
+				2A7F8CBE1D90CFBF00208766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A7F8CBF1D90CFBF00208766 /* Build configuration list for PBXNativeTarget "DFITableViewCellsDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A7F8CC01D90CFBF00208766 /* Debug */,
+				2A7F8CC11D90CFBF00208766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A7F8CC21D90CFBF00208766 /* Build configuration list for PBXNativeTarget "DFITableViewCellsDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A7F8CC31D90CFBF00208766 /* Debug */,
+				2A7F8CC41D90CFBF00208766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A7F8C871D90CFBF00208766 /* Project object */;
+}
