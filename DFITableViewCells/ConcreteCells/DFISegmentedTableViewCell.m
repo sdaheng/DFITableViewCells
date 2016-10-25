@@ -48,6 +48,11 @@
                             context:NULL];
 }
 
+- (void)removeObserver {
+    [self.cellViewModel removeObserver:self
+                            forKeyPath:@"selectedIndex"];
+}
+
 - (void)configureCellWithInfo:(id)info option:(NSDictionary *)option {
     self.cellViewModel = info;
     
@@ -103,11 +108,12 @@
     [super prepareForReuse];
     
     [self.segmentedControl removeAllSegments];
+    
+    [self removeObserver];
 }
 
 - (void)dealloc {
-    [self.cellViewModel removeObserver:self
-                            forKeyPath:@"selectedIndex"];
+    [self removeObserver];
 }
 
 @end
