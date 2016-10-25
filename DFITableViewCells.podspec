@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "DFITableViewCells"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "DFITableViewCells."
 
   s.description  = <<-DESC
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target = "8.0"
 
-  s.source       = { :git => "https://github.com/sdaheng/DFITableViewCells.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/sdaheng/DFITableViewCells.git", :tag => "0.0.3" }
 
   s.source_files  = "DFITableViewCells/**/*.{h,m}"
 
