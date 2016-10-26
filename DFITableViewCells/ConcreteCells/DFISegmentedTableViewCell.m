@@ -56,6 +56,8 @@
 - (void)configureCellWithInfo:(id)info option:(NSDictionary *)option {
     self.cellViewModel = info;
     
+    [self registerObserver];
+    
     self.textLabel.text = self.cellViewModel.titleString;
     
     [self.cellViewModel.titlesForSegmentedControl
